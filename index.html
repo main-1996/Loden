@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loden</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="home-page">
+  <div class="home">
+    <header class="home__header">
+      <div class="lang-menu" data-lang-menu-root>
+        <button
+          class="icon-btn lang-menu__trigger"
+          type="button"
+          data-lang-toggle
+          aria-haspopup="menu"
+          aria-expanded="false"
+          aria-controls="lang-menu-panel"
+          data-i18n-aria-label="lang.menuLabel"
+          data-i18n-title="lang.menuLabel"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7 1.62-4.33L19.12 17h-3.24z"/>
+          </svg>
+        </button>
+        <div
+          class="lang-menu__panel"
+          id="lang-menu-panel"
+          role="menu"
+          data-lang-panel
+          hidden
+        >
+          <button
+            class="lang-menu__option"
+            type="button"
+            role="menuitemradio"
+            data-locale="zh-CN"
+            aria-checked="false"
+          >
+            <span data-i18n="lang.zh"></span>
+            <svg class="lang-menu__check" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+          </button>
+          <button
+            class="lang-menu__option"
+            type="button"
+            role="menuitemradio"
+            data-locale="en"
+            aria-checked="false"
+          >
+            <span data-i18n="lang.en"></span>
+            <svg class="lang-menu__check" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="home__content">
+      <h1 class="home__title" data-i18n="home.title"></h1>
+      <p class="home__subtitle" data-i18n="home.subtitle"></p>
+
+      <div class="home__settings">
+        <fieldset class="field">
+          <legend class="field__label" data-i18n="home.modeLabel"></legend>
+          <div class="choice-list" data-modes></div>
+        </fieldset>
+
+        <fieldset class="field" data-presets-field>
+          <legend class="field__label" data-i18n="home.rhythmLabel"></legend>
+          <div class="choice-list" data-presets></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="field__label" data-i18n="home.appearanceLabel"></legend>
+          <div class="choice-list" data-themes></div>
+        </fieldset>
+      </div>
+
+      <button class="home__start" type="button" data-start data-i18n="home.start"></button>
+    </div>
+  </div>
+  <script src="assets/home.js" defer></script>
+</body>
+</html>

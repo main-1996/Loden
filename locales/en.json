@@ -1,0 +1,64 @@
+{
+  "app": {
+    "name": "Loden"
+  },
+  "home": {
+    "title": "Slow down, find your balance",
+    "subtitle": "Breathe with the rhythm and let your body settle",
+    "modeLabel": "Mode",
+    "rhythmLabel": "Rhythm",
+    "appearanceLabel": "Appearance",
+    "start": "Start"
+  },
+  "session": {
+    "intro": "Follow the circle—that's enough",
+    "end": "End",
+    "phase": {
+      "inhale": "Inhale",
+      "hold": "Hold",
+      "exhale": "Exhale"
+    }
+  },
+  "preset": {
+    "relax": {
+      "name": "Relax",
+      "sub": "Daily balance"
+    },
+    "sleep": {
+      "name": "Sleep",
+      "sub": "Wind down"
+    },
+    "quick": {
+      "name": "Calm",
+      "sub": "When you're tense"
+    }
+  },
+  "mode": {
+    "circle": {
+      "name": "Circle",
+      "sub": "Visual rhythm"
+    },
+    "wave": {
+      "name": "Wave",
+      "sub": "Sound and waves",
+      "subComingSoon": "Coming soon"
+    }
+  },
+  "theme": {
+    "sky": "Sky",
+    "sage": "Sage",
+    "lavender": "Lavender",
+    "sand": "Sand",
+    "mint": "Mint",
+    "minimal": "Minimal"
+  },
+  "lang": {
+    "menuLabel": "Language",
+    "zh": "中文",
+    "en": "English"
+  },
+  "a11y": {
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen"
+  }
+}

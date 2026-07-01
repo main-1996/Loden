@@ -1,0 +1,64 @@
+{
+  "app": {
+    "name": "落定"
+  },
+  "home": {
+    "title": "慢下来，回到平衡",
+    "subtitle": "跟着节奏呼吸，帮助身体稳定下来",
+    "modeLabel": "模式",
+    "rhythmLabel": "节奏",
+    "appearanceLabel": "外观",
+    "start": "开始"
+  },
+  "session": {
+    "intro": "跟着圆就好",
+    "end": "结束",
+    "phase": {
+      "inhale": "吸气",
+      "hold": "屏息",
+      "exhale": "呼气"
+    }
+  },
+  "preset": {
+    "relax": {
+      "name": "放松",
+      "sub": "日常平衡"
+    },
+    "sleep": {
+      "name": "助眠",
+      "sub": "睡前降速"
+    },
+    "quick": {
+      "name": "平复",
+      "sub": "紧张时用"
+    }
+  },
+  "mode": {
+    "circle": {
+      "name": "圆",
+      "sub": "视觉节奏"
+    },
+    "wave": {
+      "name": "浪",
+      "sub": "声音与浪",
+      "subComingSoon": "待开发"
+    }
+  },
+  "theme": {
+    "sky": "天蓝",
+    "sage": "雾绿",
+    "lavender": "薰衣草",
+    "sand": "暖沙",
+    "mint": "薄荷",
+    "minimal": "极简"
+  },
+  "lang": {
+    "menuLabel": "选择语言",
+    "zh": "中文",
+    "en": "English"
+  },
+  "a11y": {
+    "fullscreen": "全屏",
+    "exitFullscreen": "退出全屏"
+  }
+}
